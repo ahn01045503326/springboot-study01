@@ -1,12 +1,11 @@
-package com.example.simpleboard.reply.service;
+package sungsin.ahn.board.service;
 
-import com.example.simpleboard.post.db.PostEntity;
-import com.example.simpleboard.post.db.PostRepository;
-import com.example.simpleboard.reply.db.ReplyEntity;
-import com.example.simpleboard.reply.db.ReplyRepository;
-import com.example.simpleboard.reply.model.ReplyRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import sungsin.ahn.board.db.PostRepository;
+import sungsin.ahn.board.db.ReplyEntity;
+import sungsin.ahn.board.db.ReplyRepository;
+import sungsin.ahn.board.model.ReplyRequest;
 
 import java.time.LocalDateTime;
 import java.util.List;

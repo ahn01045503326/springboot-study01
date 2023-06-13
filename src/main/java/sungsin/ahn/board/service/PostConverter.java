@@ -1,8 +1,8 @@
-package com.example.simpleboard.post.service;
+package sungsin.ahn.board.service;
 
-import com.example.simpleboard.post.db.PostEntity;
-import com.example.simpleboard.post.model.PostDto;
 import org.springframework.stereotype.Service;
+import sungsin.ahn.board.db.PostEntity;
+import sungsin.ahn.board.model.PostDto;
 
 @Service
 public class PostConverter {

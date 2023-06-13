@@ -1,13 +1,13 @@
-package com.example.simpleboard.reply.controller;
+package sungsin.ahn.board.controller;
 
-import com.example.simpleboard.reply.db.ReplyEntity;
-import com.example.simpleboard.reply.model.ReplyRequest;
-import com.example.simpleboard.reply.service.ReplyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sungsin.ahn.board.db.ReplyEntity;
+import sungsin.ahn.board.model.ReplyRequest;
+import sungsin.ahn.board.service.ReplyService;
 
 import javax.validation.Valid;
 

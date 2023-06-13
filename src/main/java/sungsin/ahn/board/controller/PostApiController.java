@@ -1,16 +1,15 @@
-package com.example.simpleboard.post.controller;
+package sungsin.ahn.board.controller;
 
-import com.example.simpleboard.board.db.BoardRepository;
-import com.example.simpleboard.common.Api;
-import com.example.simpleboard.post.db.PostEntity;
-import com.example.simpleboard.post.model.PostRequest;
-import com.example.simpleboard.post.model.PostViewRequest;
-import com.example.simpleboard.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
+import sungsin.ahn.board.common.Api;
+import sungsin.ahn.board.db.PostEntity;
+import sungsin.ahn.board.model.PostRequest;
+import sungsin.ahn.board.model.PostViewRequest;
+import sungsin.ahn.board.service.PostService;
 
 import javax.validation.Valid;
 import java.util.List;

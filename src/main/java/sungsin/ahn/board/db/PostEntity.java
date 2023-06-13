@@ -6,6 +6,7 @@ import lombok.*;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -41,4 +42,9 @@ public class PostEntity {
 
     private LocalDateTime postedAt;
 
+    @OneToMany(
+        mappedBy = "post"
+    )
+    @Builder.Default
+    private List<ReplyEntity> replyList = new ArrayList<>();
 }

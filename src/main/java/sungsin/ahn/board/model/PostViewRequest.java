@@ -1,4 +1,4 @@
-package com.example.simpleboard.post.model;
+package sungsin.ahn.board.model;
 
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

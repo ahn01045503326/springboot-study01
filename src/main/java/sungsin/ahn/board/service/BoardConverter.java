@@ -1,10 +1,9 @@
-package com.example.simpleboard.board.service;
+package sungsin.ahn.board.service;
 
-import com.example.simpleboard.board.db.BoardEntity;
-import com.example.simpleboard.board.model.BoardDto;
-import com.example.simpleboard.post.service.PostConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import sungsin.ahn.board.db.BoardEntity;
+import sungsin.ahn.board.model.BoardDto;
 
 import java.util.stream.Collectors;
 

@@ -1,13 +1,13 @@
-package com.example.simpleboard.board.controller;
+package sungsin.ahn.board.controller;
 
-import com.example.simpleboard.board.db.BoardEntity;
-import com.example.simpleboard.board.db.BoardRepository;
-import com.example.simpleboard.board.model.BoardDto;
-import com.example.simpleboard.board.model.BoardRequest;
-import com.example.simpleboard.board.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
+import sungsin.ahn.board.db.BoardEntity;
+import sungsin.ahn.board.db.BoardRepository;
+import sungsin.ahn.board.model.BoardDto;
+import sungsin.ahn.board.model.BoardRequest;
+import sungsin.ahn.board.service.BoardService;
 
 import javax.validation.Valid;
 import java.util.List;

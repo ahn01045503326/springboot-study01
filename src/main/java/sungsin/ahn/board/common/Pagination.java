@@ -1,4 +1,4 @@
-package com.example.simpleboard.common;
+package sungsin.ahn.board.common;
 
 import lombok.*;
 

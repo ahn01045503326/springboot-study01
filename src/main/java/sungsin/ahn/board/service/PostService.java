@@ -1,16 +1,15 @@
-package com.example.simpleboard.post.service;
+package sungsin.ahn.board.service;
 
-import com.example.simpleboard.board.db.BoardRepository;
-import com.example.simpleboard.common.Api;
-import com.example.simpleboard.common.Pagination;
-import com.example.simpleboard.post.db.PostEntity;
-import com.example.simpleboard.post.db.PostRepository;
-import com.example.simpleboard.post.model.PostRequest;
-import com.example.simpleboard.post.model.PostViewRequest;
-import com.example.simpleboard.reply.service.ReplyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import sungsin.ahn.board.common.Api;
+import sungsin.ahn.board.common.Pagination;
+import sungsin.ahn.board.db.BoardRepository;
+import sungsin.ahn.board.db.PostEntity;
+import sungsin.ahn.board.db.PostRepository;
+import sungsin.ahn.board.model.PostRequest;
+import sungsin.ahn.board.model.PostViewRequest;
 
 import java.time.LocalDateTime;
 import java.util.List;
