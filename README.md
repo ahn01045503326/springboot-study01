@@ -15,6 +15,23 @@
 ![img_1.png](img_1.png)
 - 작성 ( 작성자, 비밀번호, 이메일, 핸드폰번호, 제목, 내용)
 ![img_3.png](img_3.png)
+- 답변 (작성자, 비밀번호, 제목, 내용)
+![img_7.png](img_7.png)
 
 ### 3. DB 설계
 ![img.png](img.png)
+
+### 4. API TEST
+- 게시판 생성
+![img_4.png](img_4.png)
+- 게시판 조회
+![img_2.png](img_2.png)
+- 게시글 생성
+![img_5.png](img_5.png)
+- 게시글 열람
+- 전체 게시글
+- 게시글 삭제
+![img_6.png](img_6.png)
+- 답변 작성
+![img_8.png](img_8.png)
+- 답변
