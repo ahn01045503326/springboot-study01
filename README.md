@@ -21,7 +21,7 @@
 ### 3. DB 설계
 ![img.png](img.png)
 
-### 4. API TEST
+### 4. API
 - 게시판 생성
 ![img_9.png](img_9.png)
 - 게시판 조회
