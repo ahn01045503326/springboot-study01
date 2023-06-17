@@ -39,9 +39,8 @@ public class BoardApiController {
         return entity;
     }
 
-    @GetMapping("/ids/{id}")
+    @GetMapping("/ids")
     public List<BoardEntity> all(
-        @PathVariable Long id
     ){
         return boardRepository.findAll();
     }

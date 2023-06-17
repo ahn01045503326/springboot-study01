@@ -23,15 +23,14 @@
 
 ### 4. API TEST
 - 게시판 생성
-![img_4.png](img_4.png)
+![img_9.png](img_9.png)
 - 게시판 조회
-![img_2.png](img_2.png)
+![img_10.png](img_10.png)
 - 게시글 생성
 ![img_5.png](img_5.png)
 - 게시글 열람
-- 전체 게시글
-- 게시글 삭제
 ![img_6.png](img_6.png)
+- 전체 게시글
+![img_2.png](img_2.png)
 - 답변 작성
 ![img_8.png](img_8.png)
-- 답변
